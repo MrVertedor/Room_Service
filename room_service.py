@@ -1,6 +1,9 @@
 """
 Room service:
-Console chatbot to order room service food from a menu (example of the menu attached below). The program will greet the user, ask for the guest's name and room number. If the information provided is correct, the chatbot will ask for a starter, the main course, and a dessert. If the information is correct then the chatbot will proceed to ask for a delivery time and confirm the order (yes/no) by repeating all the information.
+Console chatbot to order room service food from a menu. 
+The program will greet the user, ask for the guest's name and room number. 
+If the information provided is correct, the chatbot will ask for a starter, the main course, and a dessert. 
+If the information is correct then the chatbot will proceed to ask for a delivery time and confirm the order (yes/no) after repeating all the information.
 
 By Mr. V
 """
