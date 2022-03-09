@@ -11,9 +11,6 @@ By Mr. V
 import datetime
 
 #Dictionary with the current guests and their room
-from tracemalloc import start
-
-
 guests = {'101':'Zelem', '102':'Tool', '104':'Iveel', '105':'Chinguun'}
 
 #Dictionaries with the menu
@@ -91,9 +88,9 @@ for code, food in desserts.items():
 #Add a blank line
 print()
 
-#Select starters
+#Select desserts
 dessert = None
-#validate the starter
+#validate the dessert
 while dessert not in desserts.keys():
     dessert = input ('Please, enter the starter code: ')
     if dessert not in desserts:
